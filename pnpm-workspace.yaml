@@ -1,2 +1,9 @@
 packages:
-  - 'app/*' 
+  - app/*
+ignoredBuiltDependencies:
+onlyBuiltDependencies:
+  - '@nestjs/core'
+  - '@swc/core'
+  - core-js
+  - esbuild
+  - sqlite3
